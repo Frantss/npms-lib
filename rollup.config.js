@@ -17,18 +17,18 @@ export default {
     },
     {
       file: 'dist/index.umd.js',
-      name: '@react-hookful/template',
+      name: 'npms-lib',
       format: 'umd',
       sourcemap: true,
     },
   ],
-  external: ['react'],
   plugins: [
     typescript({
       tsconfig: './tsconfig.json',
     }),
     getBabelOutputPlugin({
       presets: ['@babel/preset-env'],
+      plugins: ['@babel/plugin-transform-runtime'],
       allowAllFormats: true,
     }),
     terser(),

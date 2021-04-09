@@ -1,1 +1,1 @@
-export const search = 'dummy';
+export * from './search';
