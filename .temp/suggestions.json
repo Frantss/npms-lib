@@ -1,0 +1,948 @@
+[
+  {
+    "package": {
+      "name": "typescript",
+      "scope": "unscoped",
+      "version": "3.4.3",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "keywords": [
+        "TypeScript",
+        "Microsoft",
+        "compiler",
+        "language",
+        "javascript"
+      ],
+      "date": "2019-04-09T23:21:12.530Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript",
+        "homepage": "https://www.typescriptlang.org/",
+        "repository": "https://github.com/Microsoft/TypeScript",
+        "bugs": "https://github.com/Microsoft/TypeScript/issues"
+      },
+      "author": { "name": "Microsoft Corp." },
+      "publisher": {
+        "username": "typescript",
+        "email": "typescript@microsoft.com"
+      },
+      "maintainers": [
+        { "username": "typescript", "email": "typescript@microsoft.com" }
+      ]
+    },
+    "score": {
+      "final": 0.43437456068732777,
+      "detail": {
+        "quality": 0.2966542073336534,
+        "popularity": 0.6534618052016146,
+        "maintenance": 0.3333333333333333
+      }
+    },
+    "searchScore": 1010.29913,
+    "highlight": "<em>typescript</em>"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/typescript-estree",
+      "scope": "typescript-eslint",
+      "version": "4.7.0",
+      "description": "A parser that converts TypeScript source code into an ESTree compatible form",
+      "keywords": [
+        "ast",
+        "estree",
+        "ecmascript",
+        "javascript",
+        "typescript",
+        "parser",
+        "syntax"
+      ],
+      "date": "2020-11-09T18:03:12.096Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Ftypescript-estree",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.824287730889564,
+      "detail": {
+        "quality": 0.7845212907256807,
+        "popularity": 0.6861676129175912,
+        "maintenance": 0.9964933690020084
+      }
+    },
+    "searchScore": 18.864254,
+    "highlight": "@<em>typescript</em>-eslint/<em>typescript</em>-estree"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/parser",
+      "scope": "typescript-eslint",
+      "version": "4.7.0",
+      "description": "An ESLint custom parser which leverages TypeScript ESTree",
+      "keywords": [
+        "ast",
+        "ecmascript",
+        "javascript",
+        "typescript",
+        "parser",
+        "syntax",
+        "eslint"
+      ],
+      "date": "2020-11-09T18:03:19.936Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Fparser",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8618483071294976,
+      "detail": {
+        "quality": 0.7845212907256807,
+        "popularity": 0.7935931532275098,
+        "maintenance": 0.9963837608061857
+      }
+    },
+    "searchScore": 18.56404,
+    "highlight": "@<em>typescript</em>-eslint/parser"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/eslint-plugin",
+      "scope": "typescript-eslint",
+      "version": "4.7.0",
+      "description": "TypeScript plugin for ESLint",
+      "keywords": ["eslint", "eslintplugin", "eslint-plugin", "typescript"],
+      "date": "2020-11-09T18:03:33.163Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Feslint-plugin",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8602298747634642,
+      "detail": {
+        "quality": 0.7845212907256807,
+        "popularity": 0.7889690607531286,
+        "maintenance": 0.9963837608061857
+      }
+    },
+    "searchScore": 18.011375,
+    "highlight": "@<em>typescript</em>-eslint/eslint-plugin"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/types",
+      "scope": "typescript-eslint",
+      "version": "4.21.0",
+      "description": "Types for the TypeScript-ESTree AST spec",
+      "keywords": ["eslint", "typescript", "estree"],
+      "date": "2021-04-05T17:02:21.233Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Ftypes",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8115778024258811,
+      "detail": {
+        "quality": 0.8042213765182353,
+        "popularity": 0.6329518931999546,
+        "maintenance": 0.9965092195726466
+      }
+    },
+    "searchScore": 17.59525,
+    "highlight": "@<em>typescript</em>-eslint/types"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/experimental-utils",
+      "scope": "typescript-eslint",
+      "version": "4.21.0",
+      "description": "(Experimental) Utilities for working with TypeScript + ESLint together",
+      "keywords": ["eslint", "typescript", "estree"],
+      "date": "2021-04-05T17:02:37.273Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Fexperimental-utils",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8437766923053462,
+      "detail": {
+        "quality": 0.8448574840124385,
+        "popularity": 0.6901177721462525,
+        "maintenance": 0.9965092195726466
+      }
+    },
+    "searchScore": 17.567343,
+    "highlight": "@<em>typescript</em>-eslint/experimental-utils"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/visitor-keys",
+      "scope": "typescript-eslint",
+      "version": "4.21.0",
+      "description": "Visitor keys used to help traverse the TypeScript-ESTree AST",
+      "keywords": ["eslint", "typescript", "estree"],
+      "date": "2021-04-05T17:02:25.166Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Fvisitor-keys",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8216164999175868,
+      "detail": {
+        "quality": 0.8448574840124385,
+        "popularity": 0.6268029367526541,
+        "maintenance": 0.9965092195726466
+      }
+    },
+    "searchScore": 17.143969,
+    "highlight": "@<em>typescript</em>-eslint/visitor-keys"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/scope-manager",
+      "scope": "typescript-eslint",
+      "version": "4.21.0",
+      "description": "TypeScript scope analyser for ESLint",
+      "keywords": ["eslint", "typescript", "estree"],
+      "date": "2021-04-05T17:02:28.971Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Fscope-manager",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.8170873401722999,
+      "detail": {
+        "quality": 0.8448574840124385,
+        "popularity": 0.6138624803375488,
+        "maintenance": 0.9965092195726466
+      }
+    },
+    "searchScore": 17.027826,
+    "highlight": "@<em>typescript</em>-eslint/scope-manager"
+  },
+  {
+    "package": {
+      "name": "typescript-fsa",
+      "scope": "unscoped",
+      "version": "3.0.0",
+      "description": "Type-safe action creator utilities",
+      "keywords": ["redux", "flux", "typescript", "action", "action creator"],
+      "date": "2019-09-14T03:58:48.230Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-fsa",
+        "homepage": "https://github.com/aikoven/typescript-fsa#readme",
+        "repository": "https://github.com/aikoven/typescript-fsa",
+        "bugs": "https://github.com/aikoven/typescript-fsa/issues"
+      },
+      "author": {
+        "name": "Daniel Lytkin",
+        "email": "dan.lytkin@gmail.com",
+        "username": "aikoven"
+      },
+      "publisher": { "username": "aikoven", "email": "dan.lytkin@gmail.com" },
+      "maintainers": [
+        { "username": "aikoven", "email": "dan.lytkin@gmail.com" }
+      ]
+    },
+    "score": {
+      "final": 0.7275041206640847,
+      "detail": {
+        "quality": 0.9554165595786436,
+        "popularity": 0.2597601909524645,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 16.44156,
+    "highlight": "<em>typescript</em>-fsa"
+  },
+  {
+    "package": {
+      "name": "typescript-memoize",
+      "scope": "unscoped",
+      "version": "1.0.1",
+      "description": "Memoize decorator for Typescript",
+      "keywords": ["typescript", "memoize", "functional", "decorator"],
+      "date": "2021-04-01T11:29:02.900Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-memoize",
+        "homepage": "https://github.com/darrylhodgins/typescript-memoize#readme",
+        "repository": "https://github.com/darrylhodgins/typescript-memoize",
+        "bugs": "https://github.com/darrylhodgins/typescript-memoize/issues"
+      },
+      "author": { "name": "Darryl Hodgins", "email": "darrylh@darryh.ca" },
+      "publisher": {
+        "username": "darrylhodgins",
+        "email": "darrylh@darrylh.ca"
+      },
+      "maintainers": [
+        { "username": "darrylhodgins", "email": "darrylh@darrylh.ca" }
+      ]
+    },
+    "score": {
+      "final": 0.7163079973007689,
+      "detail": {
+        "quality": 0.9203039165491579,
+        "popularity": 0.25789715423698933,
+        "maintenance": 0.9998651952945008
+      }
+    },
+    "searchScore": 16.05246,
+    "highlight": "<em>typescript</em>-memoize"
+  },
+  {
+    "package": {
+      "name": "typescript-tuple",
+      "scope": "unscoped",
+      "version": "5.0.1",
+      "description": "Generics to work with tuples in TypeScript",
+      "keywords": ["generic", "tuple", "typescript"],
+      "date": "2021-03-06T06:11:03.342Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-tuple",
+        "homepage": "https://github.com/ksxnodemodules/typescript-tuple#readme",
+        "repository": "https://github.com/ksxnodemodules/typescript-tuple",
+        "bugs": "https://github.com/ksxnodemodules/typescript-tuple/issues"
+      },
+      "author": {
+        "name": "Hoàng Văn Khải",
+        "email": "hvksmr1996@gmail.com",
+        "username": "khai96_"
+      },
+      "publisher": { "username": "khai96_", "email": "hvksmr1996@gmail.com" },
+      "maintainers": [
+        { "username": "khai96_", "email": "hvksmr1996@gmail.com" }
+      ]
+    },
+    "score": {
+      "final": 0.709154737955725,
+      "detail": {
+        "quality": 0.8348371147464844,
+        "popularity": 0.3106871930704309,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 16.037622,
+    "highlight": "<em>typescript</em>-tuple"
+  },
+  {
+    "package": {
+      "name": "typescript-narrowany",
+      "scope": "unscoped",
+      "version": "2.1.0",
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "keywords": [
+        "TypeScript",
+        "Microsoft",
+        "compiler",
+        "language",
+        "javascript"
+      ],
+      "date": "2016-08-07T08:02:48.759Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-narrowany",
+        "homepage": "http://typescriptlang.org/",
+        "repository": "https://github.com/Microsoft/TypeScript",
+        "bugs": "https://github.com/Microsoft/TypeScript/issues"
+      },
+      "author": { "name": "Microsoft Corp." },
+      "publisher": { "username": "yortus", "email": "yortus@gmail.com" },
+      "maintainers": [{ "username": "yortus", "email": "yortus@gmail.com" }]
+    },
+    "score": {
+      "final": 0.7159763819301808,
+      "detail": {
+        "quality": 0.9467499608429917,
+        "popularity": 0.24091881528686235,
+        "maintenance": 0.9932280237910895
+      }
+    },
+    "searchScore": 15.986963,
+    "highlight": "<em>typescript</em>-narrowany"
+  },
+  {
+    "package": {
+      "name": "typescript-optional",
+      "scope": "unscoped",
+      "version": "2.0.1",
+      "description": "Optional (like Java) implementation in TypeScript",
+      "keywords": ["java", "optional", "typescript"],
+      "date": "2019-01-05T17:55:50.004Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-optional",
+        "homepage": "https://github.com/bromne/typescript-optional#readme",
+        "repository": "https://github.com/bromne/typescript-optional",
+        "bugs": "https://github.com/bromne/typescript-optional/issues"
+      },
+      "author": { "name": "bromne" },
+      "publisher": { "username": "bromne", "email": "bromne@gmail.com" },
+      "maintainers": [{ "username": "bromne", "email": "bromne@gmail.com" }]
+    },
+    "score": {
+      "final": 0.700555371921852,
+      "detail": {
+        "quality": 0.989472659492533,
+        "popularity": 0.1535728231913232,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 15.670326,
+    "highlight": "<em>typescript</em>-optional"
+  },
+  {
+    "package": {
+      "name": "@typescript-eslint/eslint-plugin-tslint",
+      "scope": "typescript-eslint",
+      "version": "4.21.0",
+      "description": "TSLint wrapper plugin for ESLint",
+      "keywords": ["eslint", "eslintplugin", "eslint-plugin", "tslint"],
+      "date": "2021-04-05T17:02:43.136Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript-eslint%2Feslint-plugin-tslint",
+        "homepage": "https://github.com/typescript-eslint/typescript-eslint#readme",
+        "repository": "https://github.com/typescript-eslint/typescript-eslint",
+        "bugs": "https://github.com/typescript-eslint/typescript-eslint/issues"
+      },
+      "publisher": {
+        "username": "jameshenry",
+        "email": "npm@jameshenry.email"
+      },
+      "maintainers": [
+        { "username": "jameshenry", "email": "npm@jameshenry.email" }
+      ]
+    },
+    "score": {
+      "final": 0.7525611465639175,
+      "detail": {
+        "quality": 0.8448574840124385,
+        "popularity": 0.4295019271707417,
+        "maintenance": 0.9965092195726466
+      }
+    },
+    "searchScore": 15.40634,
+    "highlight": "@<em>typescript</em>-eslint/eslint-plugin-tslint"
+  },
+  {
+    "package": {
+      "name": "typescript-collections",
+      "scope": "unscoped",
+      "version": "1.3.3",
+      "description": "A complete, fully tested data structure library written in TypeScript.",
+      "keywords": [
+        "typescript",
+        "generics",
+        "data",
+        "structures",
+        "collections",
+        "linked",
+        "list",
+        "dictionary",
+        "default",
+        "dictionary",
+        "multi",
+        "dictionary",
+        "binary",
+        "search",
+        "tree",
+        "key",
+        "value",
+        "stack",
+        "queue",
+        "set",
+        "bag",
+        "binary",
+        "heap",
+        "priority",
+        "queue",
+        "array"
+      ],
+      "date": "2019-11-04T12:55:33.130Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-collections",
+        "homepage": "https://github.com/basarat/typescript-collections",
+        "repository": "https://github.com/basarat/typescript-collections",
+        "bugs": "https://github.com/basarat/typescript-collections/issues"
+      },
+      "author": {
+        "name": "Basarat Ali Syed",
+        "email": "bas@basarat.com",
+        "url": "http://basarat.com"
+      },
+      "publisher": { "username": "episage", "email": "tilosag@gmail.com" },
+      "maintainers": [
+        { "username": "basarat", "email": "basaratali@gmail.com" },
+        { "username": "episage", "email": "tilosag@gmail.com" },
+        { "username": "nsamala", "email": "nishanth.samala@gmail.com" }
+      ]
+    },
+    "score": {
+      "final": 0.6908892806260587,
+      "detail": {
+        "quality": 0.8348371147464844,
+        "popularity": 0.25850017212852694,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 15.375971,
+    "highlight": "<em>typescript</em>-collections"
+  },
+  {
+    "package": {
+      "name": "typescript-compiler",
+      "scope": "unscoped",
+      "version": "1.4.1-2",
+      "description": "Typescript compiler wrapper",
+      "keywords": ["TypeScript", "compiler", "language", "javascript", "api"],
+      "date": "2015-03-11T18:40:34.697Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-compiler",
+        "homepage": "https://github.com/theblacksmith/typescript-compiler",
+        "repository": "https://github.com/theblacksmith/typescript-compiler",
+        "bugs": "https://github.com/theblacksmith/typescript-compiler/issues"
+      },
+      "author": { "name": "The Blacksmith", "url": "a.k.a. Saulo Vallory" },
+      "publisher": {
+        "username": "theblacksmith",
+        "email": "me@saulovallory.com"
+      },
+      "maintainers": [
+        { "username": "theblacksmith", "email": "me@saulovallory.com" }
+      ]
+    },
+    "score": {
+      "final": 0.683223861851718,
+      "detail": {
+        "quality": 0.853013771646336,
+        "popularity": 0.2210483200135485,
+        "maintenance": 0.9998651952945008
+      }
+    },
+    "searchScore": 15.282648,
+    "highlight": "<em>typescript</em>-compiler"
+  },
+  {
+    "package": {
+      "name": "typescript-monads",
+      "scope": "unscoped",
+      "version": "5.1.0",
+      "description": "Write cleaner TypeScript",
+      "keywords": [
+        "typescript",
+        "javascript",
+        "monads",
+        "maybe",
+        "result",
+        "either",
+        "list",
+        "functional",
+        "list-monad",
+        "maybe-monad",
+        "either-monad",
+        "result-monad"
+      ],
+      "date": "2021-03-26T19:55:24.180Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-monads",
+        "homepage": "https://github.com/patrickmichalina/typescript-monads#readme",
+        "repository": "https://github.com/patrickmichalina/typescript-monads",
+        "bugs": "https://github.com/patrickmichalina/typescript-monads/issues"
+      },
+      "author": {
+        "name": "Patrick Michalina",
+        "email": "patrickmichalina@mac.com",
+        "url": "https://patrickmichalina.com",
+        "username": "patrickmichalina"
+      },
+      "publisher": {
+        "username": "patrickmichalina",
+        "email": "patrickmichalina@mac.com"
+      },
+      "maintainers": [
+        { "username": "patrickmichalina", "email": "patrickmichalina@mac.com" }
+      ]
+    },
+    "score": {
+      "final": 0.6800919868074977,
+      "detail": {
+        "quality": 0.9749463942827197,
+        "popularity": 0.10751139830532239,
+        "maintenance": 0.9999402260451971
+      }
+    },
+    "searchScore": 15.270611,
+    "highlight": "<em>typescript</em>-monads"
+  },
+  {
+    "package": {
+      "name": "typescript-transform-paths",
+      "scope": "unscoped",
+      "version": "2.2.3",
+      "description": "Transforms module resolution paths using TypeScript path mapping",
+      "keywords": [
+        "typescript",
+        "transform",
+        "transformer",
+        "plugin",
+        "path",
+        "paths",
+        "virtual directory",
+        "import",
+        "require"
+      ],
+      "date": "2021-02-02T23:08:55.628Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-transform-paths",
+        "homepage": "https://github.com/LeDDGroup/typescript-transform-paths#readme",
+        "repository": "https://github.com/LeDDGroup/typescript-transform-paths",
+        "bugs": "https://github.com/LeDDGroup/typescript-transform-paths/issues"
+      },
+      "publisher": {
+        "username": "danielpanpm",
+        "email": "danielpza@protonmail.com"
+      },
+      "maintainers": [
+        { "username": "danielpanpm", "email": "danielpza@protonmail.com" },
+        { "username": "nonara", "email": "ron@crosstype.org" }
+      ]
+    },
+    "score": {
+      "final": 0.7059601233866366,
+      "detail": {
+        "quality": 0.9401508630115203,
+        "popularity": 0.21124431246697434,
+        "maintenance": 0.9999410146278274
+      }
+    },
+    "searchScore": 15.235984,
+    "highlight": "<em>typescript</em>-transform-paths"
+  },
+  {
+    "package": {
+      "name": "typescript-fsa-reducers",
+      "scope": "unscoped",
+      "version": "1.2.2",
+      "description": "Fluent syntax for defining typesafe Redux reducers on top of typescript-fsa.",
+      "keywords": ["redux", "typescript", "action", "reducer", "builder"],
+      "date": "2020-07-10T17:42:23.983Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-fsa-reducers",
+        "homepage": "https://github.com/dphilipson/typescript-fsa-reducers#readme",
+        "repository": "https://github.com/dphilipson/typescript-fsa-reducers",
+        "bugs": "https://github.com/dphilipson/typescript-fsa-reducers/issues"
+      },
+      "author": {
+        "name": "David Philipson",
+        "email": "david.philipson@gmail.com",
+        "url": "http://dphil.me"
+      },
+      "publisher": {
+        "username": "dphilipson",
+        "email": "david.philipson@gmail.com"
+      },
+      "maintainers": [
+        { "username": "dphilipson", "email": "dphilipson@gmail.com" }
+      ]
+    },
+    "score": {
+      "final": 0.7044706819283565,
+      "detail": {
+        "quality": 0.9203039165491579,
+        "popularity": 0.2240762531729541,
+        "maintenance": 0.9998651952945008
+      }
+    },
+    "searchScore": 15.198304,
+    "highlight": "<em>typescript</em>-fsa-reducers"
+  },
+  {
+    "package": {
+      "name": "typescript-simple",
+      "scope": "unscoped",
+      "version": "8.0.6",
+      "description": "Simple API to compile TypeScript code string to JavaScript. That's all!",
+      "keywords": ["typescript"],
+      "date": "2018-02-01T14:37:25.389Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-simple",
+        "homepage": "https://github.com/teppeis/typescript-simple",
+        "repository": "https://github.com/teppeis/typescript-simple",
+        "bugs": "https://github.com/teppeis/typescript-simple/issues"
+      },
+      "author": {
+        "name": "Teppei Sato",
+        "email": "teppeis@gmail.com",
+        "username": "teppeis"
+      },
+      "publisher": { "username": "teppeis", "email": "teppeis@gmail.com" },
+      "maintainers": [{ "username": "teppeis", "email": "teppeis@gmail.com" }]
+    },
+    "score": {
+      "final": 0.676813136544827,
+      "detail": {
+        "quality": 0.9436307369981001,
+        "popularity": 0.12503094139505133,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 15.196988,
+    "highlight": "<em>typescript</em>-simple"
+  },
+  {
+    "package": {
+      "name": "typescript-tslint-plugin",
+      "scope": "unscoped",
+      "version": "1.0.1",
+      "description": "TypeScript tslint language service plugin",
+      "date": "2020-12-14T22:25:56.927Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-tslint-plugin",
+        "homepage": "https://github.com/microsoft/typescript-tslint-plugin#readme",
+        "repository": "https://github.com/microsoft/typescript-tslint-plugin",
+        "bugs": "https://github.com/microsoft/typescript-tslint-plugin/issues"
+      },
+      "author": { "name": "Microsoft" },
+      "publisher": {
+        "username": "mattbierner",
+        "email": "mattbierner@gmail.com"
+      },
+      "maintainers": [
+        {
+          "username": "microsoft-graph-toolkit",
+          "email": "mgt-npm@microsoft.com"
+        },
+        { "username": "darinious", "email": "dahoove@microsoft.com" },
+        { "username": "benkenawell-ms", "email": "bekenawe@microsoft.com" },
+        { "username": "abrilgonzalez", "email": "abgonz@microsoft.com" },
+        { "username": "awentzel", "email": "awentzel@microsoft.com" },
+        { "username": "eisenbergeffect", "email": "rob@bluespire.com" },
+        { "username": "janechu", "email": "jachu@microsoft.com" },
+        { "username": "nirice", "email": "nirice@microsoft.com" },
+        { "username": "ccf-bot", "email": "CCF-Sec@microsoft.com" },
+        { "username": "joshgummersall", "email": "npm@josh.standardlabs.dev" },
+        { "username": "peterinnesmsft", "email": "peinnes@microsoft.com" },
+        { "username": "microsoft1es", "email": "npmjs@microsoft.com" },
+        { "username": "mattbierner", "email": "mattbierner@gmail.com" }
+      ]
+    },
+    "score": {
+      "final": 0.6980786506672116,
+      "detail": {
+        "quality": 0.9214482224083889,
+        "popularity": 0.20477623452485547,
+        "maintenance": 0.9999214338885589
+      }
+    },
+    "searchScore": 15.110625,
+    "highlight": "<em>typescript</em>-tslint-plugin"
+  },
+  {
+    "package": {
+      "name": "@typescript/vfs",
+      "scope": "typescript",
+      "version": "1.3.4",
+      "description": "A Map based TypeScript Virtual File System.",
+      "date": "2021-02-22T13:49:39.351Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript%2Fvfs",
+        "homepage": "https://github.com/microsoft/TypeScript-Website",
+        "repository": "https://github.com/microsoft/TypeScript-Website",
+        "bugs": "https://github.com/microsoft/TypeScript-Website/issues"
+      },
+      "author": { "name": "TypeScript team" },
+      "publisher": {
+        "username": "typescript-deploys",
+        "email": "ortam@microsoft.com"
+      },
+      "maintainers": [
+        { "username": "typescript-bot", "email": "typescript@microsoft.com" },
+        { "username": "weswigham", "email": "wwigham@gmail.com" },
+        { "username": "sanders_n", "email": "ncsander@indiana.edu" },
+        { "username": "andrewbranch", "email": "andrew@wheream.io" },
+        { "username": "minestarks", "email": "mineyalc@microsoft.com" },
+        { "username": "rbuckton", "email": "rbuckton@chronicles.org" },
+        { "username": "sheetalkamat", "email": "shkamat@microsoft.com" },
+        { "username": "orta", "email": "orta.therox@gmail.com" },
+        { "username": "typescript-deploys", "email": "ortam@microsoft.com" }
+      ]
+    },
+    "score": {
+      "final": 0.6673136684446586,
+      "detail": {
+        "quality": 0.8448893104859356,
+        "popularity": 0.1892682329044775,
+        "maintenance": 0.9931514108066024
+      }
+    },
+    "searchScore": 15.081259,
+    "highlight": "@<em>typescript</em>/vfs"
+  },
+  {
+    "package": {
+      "name": "@typescript/twoslash",
+      "scope": "typescript",
+      "version": "1.1.7",
+      "description": "A markup format for TypeScript code, ideal for creating self-contained code samples which let the TypeScript compiler do the extra leg-work. Inspired by the [fourslash test system](https://github.com/orta/typescript-notes/blob/master/systems/testing/fours",
+      "date": "2021-02-22T13:49:44.535Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/%40typescript%2Ftwoslash",
+        "homepage": "https://github.com/microsoft/TypeScript-Website",
+        "repository": "https://github.com/microsoft/TypeScript-Website",
+        "bugs": "https://github.com/microsoft/TypeScript-Website/issues"
+      },
+      "author": { "name": "TypeScript team" },
+      "publisher": {
+        "username": "typescript-deploys",
+        "email": "ortam@microsoft.com"
+      },
+      "maintainers": [
+        { "username": "typescript-bot", "email": "typescript@microsoft.com" },
+        { "username": "weswigham", "email": "wwigham@gmail.com" },
+        { "username": "sanders_n", "email": "ncsander@indiana.edu" },
+        { "username": "andrewbranch", "email": "andrew@wheream.io" },
+        { "username": "minestarks", "email": "mineyalc@microsoft.com" },
+        { "username": "rbuckton", "email": "rbuckton@chronicles.org" },
+        { "username": "sheetalkamat", "email": "shkamat@microsoft.com" },
+        { "username": "orta", "email": "orta.therox@gmail.com" },
+        { "username": "typescript-deploys", "email": "ortam@microsoft.com" }
+      ]
+    },
+    "score": {
+      "final": 0.6646671063467262,
+      "detail": {
+        "quality": 0.8448893104859356,
+        "popularity": 0.18170662691038503,
+        "maintenance": 0.9931514108066024
+      }
+    },
+    "searchScore": 14.944181,
+    "highlight": "@<em>typescript</em>/twoslash"
+  },
+  {
+    "package": {
+      "name": "typescript-log",
+      "scope": "unscoped",
+      "version": "2.0.0",
+      "description": "Logger interface with a few simple implementations, interface compatible with pino, bunyan and probably others",
+      "keywords": ["typescript", "Logger", "pino", "bunyan", "types"],
+      "date": "2020-06-18T12:11:54.305Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-log",
+        "homepage": "https://github.com/sevenwestmedia-labs/typescript-log#readme",
+        "repository": "https://github.com/sevenwestmedia-labs/typescript-log",
+        "bugs": "https://github.com/sevenwestmedia-labs/typescript-log/issues"
+      },
+      "author": { "name": "Jake Ginnivan" },
+      "publisher": { "username": "jakeginnivan", "email": "jake@ginnivan.net" },
+      "maintainers": [
+        { "username": "jakeginnivan", "email": "jake@ginnivan.net" }
+      ]
+    },
+    "score": {
+      "final": 0.6611383057108873,
+      "detail": {
+        "quality": 0.9303561122886091,
+        "popularity": 0.09162396019193009,
+        "maintenance": 0.999894531306083
+      }
+    },
+    "searchScore": 14.941696,
+    "highlight": "<em>typescript</em>-log"
+  },
+  {
+    "package": {
+      "name": "typescript-to-lua",
+      "scope": "unscoped",
+      "version": "0.39.2",
+      "description": "A generic TypeScript to Lua transpiler. Write your code in TypeScript and publish Lua!",
+      "keywords": ["typescript", "lua", "tstl", "transpiler"],
+      "date": "2021-04-02T17:02:27.845Z",
+      "links": {
+        "npm": "https://www.npmjs.com/package/typescript-to-lua",
+        "homepage": "https://typescripttolua.github.io/",
+        "repository": "https://github.com/TypeScriptToLua/TypeScriptToLua",
+        "bugs": "https://github.com/TypeScriptToLua/TypeScriptToLua/issues"
+      },
+      "publisher": { "username": "perryvw", "email": "npm@yrrep.me" },
+      "maintainers": [
+        { "username": "perryvw", "email": "npm@yrrep.me" },
+        { "username": "lolleko", "email": "lorenz.junglas@student.kit.edu" }
+      ]
+    },
+    "flags": { "unstable": true },
+    "score": {
+      "final": 0.6785702412635362,
+      "detail": {
+        "quality": 0.8560313998458209,
+        "popularity": 0.21430469369816452,
+        "maintenance": 0.9907262243298066
+      }
+    },
+    "searchScore": 14.877529,
+    "highlight": "<em>typescript</em>-to-lua"
+  }
+]
