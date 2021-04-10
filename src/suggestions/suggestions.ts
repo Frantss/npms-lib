@@ -14,7 +14,7 @@ export interface SuggestionsResult extends SearchResult {
 export const suggestions = async ({
   query,
   size,
-}: SuggestionsParams): Promise<SuggestionsResult | QueryError> => {
+}: SuggestionsParams): Promise<SuggestionsResult[] | QueryError> => {
   let queryParams = `?q=${query}`;
   queryParams += size ? `&size=${size}` : '';
 
