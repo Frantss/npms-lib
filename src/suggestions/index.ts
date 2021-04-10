@@ -1,1 +1,1 @@
-export const suggestions = 'dummy';
+export * from './suggestions';
