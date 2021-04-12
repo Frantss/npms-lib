@@ -11,7 +11,33 @@
   <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/Frantss/npms-lib/develop?label=develop&logo=circleci&style=flat-square&token=c97c78f1040c038c4857e8bbc6ab5a4acc310455">
 </p>
 
-Typed API for npms
+Typed API for [npms](https://npms.io/)
+
+## Contents
+
+- [npms-lib](#npms-lib)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [API Reference](#api-reference)
+  - [License](#license)
+
+## Installation
+
+```shell
+# NPM
+npm install npms-lib
+
+# Yarn
+yarn add npms-lib
+```
+
+## API Reference
+
+- `search`: Returns specified number of packages that match the specified parameters.
+
+- `suggestions`: Like `search` but with pre-set search parameters.
+
+- `info`: Returns information from one or more specified packages.
 
 ## License
 

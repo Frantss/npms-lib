@@ -28,7 +28,7 @@ export const parseSearchOptions = (options?: SearchOptions): string => {
   return result.trim().replace(/\s+/g, '');
 };
 
-const parseKeywords = (
+export const parseKeywords = (
   keywords?: string | string[],
   excludeKeywords?: string | string[],
 ): string => {
@@ -38,7 +38,7 @@ const parseKeywords = (
   return [...normalizedKeywords, ...normalizedExcludeKeywords].join(',');
 };
 
-const parseFlags = (flags: SearchOptions['flags']): string => {
+export const parseFlags = (flags: SearchOptions['flags']): string => {
   const isFlags = [
     flags?.deprecated ? 'deprecated' : undefined,
     flags?.insecure ? 'insecure' : undefined,
