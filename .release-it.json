@@ -1,0 +1,15 @@
+{
+  "git": {
+    "commitMessage": "[skip ci] Release ${version}"
+  },
+  "npm": {
+    "publish": true,
+    "skipChecks": true
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "conventionalcommits",
+      "infile": "CHANGELOG.md"
+    }
+  }
+}

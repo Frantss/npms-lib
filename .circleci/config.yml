@@ -33,7 +33,7 @@ jobs:
             - run: git config user.email $GIT_EMAIL
             - run: git config user.name $GIT_USERNAME
 
-            - run: yarn release-it --ci --npm.skipChecks
+            - run: yarn release-it --ci
 
   merge-back:
     executor:
