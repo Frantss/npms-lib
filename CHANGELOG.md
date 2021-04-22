@@ -1,3 +1,10 @@
+### [0.3.1](https://github.com/Frantss/npms-lib/compare/0.3.0...0.3.1) (2021-04-22)
+
+
+### Bug Fixes
+
+* fixed configuration of fetch function ([782dc7f](https://github.com/Frantss/npms-lib/commit/782dc7f8b49c348a272907c2c05fac33d428cd64))
+
 ## 0.3.0 (2021-04-22)
 
 
