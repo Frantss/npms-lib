@@ -1,3 +1,4 @@
+import { config } from '../config';
 import { API_URL } from '../constants';
 import { SearchResult } from '../search';
 import { QueryError } from '../types';
@@ -18,6 +19,8 @@ export const suggestions = async ({
   let queryParams = `?q=${query}`;
   queryParams += size ? `&size=${size}` : '';
 
-  const response = await fetch(`${API_URL}/search/suggestions${queryParams}`);
+  const response = await config.fetch(
+    `${API_URL}/search/suggestions${queryParams}`,
+  );
   return response.json();
 };

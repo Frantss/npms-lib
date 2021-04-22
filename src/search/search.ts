@@ -1,7 +1,7 @@
 import { API_URL } from '../constants';
 import { Flags, Package, QueryError, Score } from '../types';
 import { parseSearchOptions } from './utils';
-import fetch from 'node-fetch';
+import { config } from '../config';
 
 export interface SearchParams {
   query: string;
@@ -77,6 +77,6 @@ export const search = async (
   queryParams += from ? `&from=${from}` : '';
   queryParams += size ? `&size=${size}` : '';
 
-  const response = await fetch(`${API_URL}/search${queryParams}`);
+  const response = await config.fetch(`${API_URL}/search${queryParams}`);
   return response.json();
 };

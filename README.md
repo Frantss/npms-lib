@@ -11,14 +11,16 @@
   <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/Frantss/npms-lib/develop?label=develop&logo=circleci&style=flat-square&token=c97c78f1040c038c4857e8bbc6ab5a4acc310455">
 </p>
 
-Typed API for [npms](https://npms.io/)
+Typed API client for [npms](https://npms.io/)
 
 ## Contents
 
 - [npms-lib](#npms-lib)
   - [Contents](#contents)
   - [Installation](#installation)
+  - [Example](#example)
   - [API Reference](#api-reference)
+  - [Use with Node.js](#use-with-nodejs)
   - [License](#license)
 
 ## Installation
@@ -31,6 +33,15 @@ npm install npms-lib
 yarn add npms-lib
 ```
 
+## Example
+
+```ts
+import * as npms from 'npms-lib';
+
+const result = await npms.search({ query: 'typescript', size: 1 });
+console.log(result.results[0].package.name); // typescript
+```
+
 ## API Reference
 
 - `search`: Returns specified number of packages that match the specified parameters.
@@ -38,6 +49,18 @@ yarn add npms-lib
 - `suggestions`: Like `search` but with pre-set search parameters.
 
 - `info`: Returns information from one or more specified packages.
+
+## Use with Node.js
+
+The library assumes it's running on a browser, so it relays on the [`fetch API`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API). 
+[`node-fetch`](https://www.npmjs.com/package/node-fetch) is a good option:
+
+```ts
+import fetch from 'node-fetch';
+import * as npms from 'npms-lib';
+
+npms.config.fetch = fetch;
+```
 
 ## License
 

@@ -1,6 +1,6 @@
 import { terser } from 'rollup-plugin-terser';
 import typescript from 'rollup-plugin-typescript2';
-import { getBabelOutputPlugin } from '@rollup/plugin-babel';
+import { babel } from '@rollup/plugin-babel';
 
 export default {
   input: 'src/index.ts',
@@ -26,11 +26,7 @@ export default {
     typescript({
       tsconfig: './tsconfig.json',
     }),
-    getBabelOutputPlugin({
-      presets: ['@babel/preset-env'],
-      plugins: ['@babel/plugin-transform-runtime'],
-      allowAllFormats: true,
-    }),
+    babel({ babelHelpers: 'bundled', presets: ['@babel/preset-env'] }),
     terser(),
   ],
 };
