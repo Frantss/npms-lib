@@ -1,3 +1,10 @@
+## [0.4.0](https://github.com/Frantss/npms-lib/compare/0.3.1...0.4.0) (2021-04-22)
+
+
+### Features
+
+* add search and suggestion overload ([fdcba79](https://github.com/Frantss/npms-lib/commit/fdcba793b996b95b60cbf08d9208a0ea09e5136d))
+
 ### [0.3.1](https://github.com/Frantss/npms-lib/compare/0.3.0...0.3.1) (2021-04-22)
 
 
