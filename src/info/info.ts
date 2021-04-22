@@ -1,6 +1,6 @@
 import { config } from '../config';
 import { API_URL } from '../constants';
-import { QueryError, Score } from '../types';
+import { Score } from '../types';
 import {
   ErrorInfo,
   EvaluationInfo,
@@ -23,12 +23,12 @@ export interface InfoResult {
   error?: ErrorInfo;
 }
 
-export async function info(name: string): Promise<InfoResult | QueryError>;
-export async function info(names: string[]): Promise<InfoResult[] | QueryError>;
+export async function info(name: string): Promise<InfoResult>;
+export async function info(names: string[]): Promise<InfoResult[]>;
 
 export async function info(
   names: string | string[],
-): Promise<InfoResult | InfoResult[] | QueryError> {
+): Promise<InfoResult | InfoResult[]> {
   if (Array.isArray(names)) {
     const response = await config.fetch(`${API_URL}/package/mget`, {
       body: JSON.stringify(names),

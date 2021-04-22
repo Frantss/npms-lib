@@ -1,5 +1,5 @@
 import { API_URL } from '../constants';
-import { Flags, Package, QueryError, Score } from '../types';
+import { Flags, Package, Score } from '../types';
 import { parseSearchOptions } from './utils';
 import { config } from '../config';
 
@@ -69,14 +69,20 @@ export interface PackageSearchInfo {
 }
 
 export const search = async (
-  { query, from, size }: SearchParams,
+  query: SearchParams | string,
   options?: SearchOptions,
-): Promise<SearchResult | QueryError> => {
-  let queryParams = `?q=${query}`;
-  queryParams += parseSearchOptions(options);
-  queryParams += from ? `&from=${from}` : '';
-  queryParams += size ? `&size=${size}` : '';
+): Promise<SearchResult> => {
+  let queryString;
+  if (typeof query === 'string') {
+    queryString = `?q=${query}`;
+    queryString += parseSearchOptions(options);
+  } else {
+    queryString = `?q=${query.query}`;
+    queryString += parseSearchOptions(options);
+    queryString += query.from ? `&from=${query.from}` : '';
+    queryString += query.size ? `&size=${query.size}` : '';
+  }
 
-  const response = await config.fetch(`${API_URL}/search${queryParams}`);
+  const response = await config.fetch(`${API_URL}/search${queryString}`);
   return response.json();
 };
